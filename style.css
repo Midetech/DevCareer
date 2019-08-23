@@ -1,0 +1,231 @@
+body{
+   margin: 5px;
+    background-color: hsl(243, 87%, 12%);
+    font-family: Open Sans;
+   min-height: auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+header{
+    margin: 10px;
+    padding-bottom:100px; 
+}
+
+.logo{
+    width: 0 auto;
+    height: 25px;
+    margin: 0;
+}
+
+.header_link{
+    color: white;
+    margin: 5px;
+    padding-right: 12px; 
+}
+
+.signin{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.signup{
+    margin-top: 5px;
+    padding: 2px 20px;
+}
+
+.header_link{
+    float:right;
+    padding: 0px;
+    margin: 0;
+}
+
+.header_text{
+    padding-top: 80px;
+    color: white;
+    font-family: Raleway;
+    padding-left: 10px;
+    
+}
+
+.text1{
+    font-size: 2rem;
+}
+.header_image{
+   display: inline;
+   float: right;
+   width: 280px;
+   position: relative;
+   bottom: 200PX
+   
+}
+
+.middle{
+    margin: 10px;
+    background: white;
+    margin-top: 25px; 
+    height: 850px;
+    width: 100% ;
+}
+
+.middle_title{
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  top: 100px;
+
+
+}
+
+.middle_image{
+    position: absolute;
+    float: left;
+    height: 450px;
+    top: 520px;
+
+}
+
+.text_block{
+   position: relative;
+   left: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    //text-align: justify;
+    width: 570px;
+    height: 490px;
+    top: 150px;
+}
+
+.subscription{
+    position: relative;
+    top: 210px;
+    text-align: center;
+}
+.access{
+    font-size: 1.5rem;
+}
+.logo_bottom{
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+    /* background: white; */
+    /* margin-top: 25px;  */
+    height: 100px;
+    width: 100% ;
+    top: 500px;
+    
+
+}
+.icon-phone{
+    position: absolute;
+    left: 2px;
+    padding: 5px;
+    margin: 5px;
+}
+.phone{
+    position: relative;
+    left: 35px;
+    padding: 5px;
+    margin: 0;
+    
+
+}
+
+.icon-email{
+    position: absolute;
+    left: 2px;
+    padding: 10px; 
+    margin: 5px;
+}
+.email{
+    position: relative;
+    left: 35px;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.fylo{
+    position: absolute;
+    left: 300px;
+    
+}
+
+.company{
+    position: absolute;
+    left: 550px;
+}
+
+.support{
+    position: absolute;
+    right: 400px;
+  
+}
+
+.newsletter{
+    position: absolute;
+    color: white;
+    right: 1px;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  li{
+      list-style: none;
+      margin-top: 5px;
+      padding: 0;
+  }
+   a{
+       color: white;
+       text-decoration: none;
+   }
+   a:visited{
+       color: white;
+   }
+
+   .first_line{
+       border: 1px solid white;
+       height: 90px;
+       position: relative;
+       left: 80px;
+   }
+
+   .second_line{
+    border: 1px solid white;
+    height: 90px;
+    position: relative;
+    left: 800px;
+}
+
+h5{
+    position: relative;
+    left: 40px;
+    bottom: 1px;
+    text-decoration: none;
+}
