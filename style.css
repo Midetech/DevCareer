@@ -1,8 +1,11 @@
+
+
 body{
    margin: 5px;
     background-color: hsl(243, 87%, 12%);
     font-family: Open Sans;
    min-height: auto;
+   /* overflow: hidden; */
     
 }
 
@@ -98,12 +101,12 @@ header{
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    //text-align: justify;
-    width: 570px;
+    text-align: justify;
+    width : 570px;
     height: 490px;
     top: 150px;
 }
-
+/* 
 .subscription{
     position: relative;
     top: 210px;
@@ -125,13 +128,13 @@ header{
     /* margin: 10px; */
     /* background: white; */
     /* margin-top: 25px;  */
-    height: 100px;
+    /* height: 100px;
     width: 100% ;
-    top: 500px;
+    top: 500px; */
     
 
-}
-.icon-phone{
+
+/* .icon-phone{
     position: absolute;
     left: 2px;
     padding: 5px;
@@ -183,49 +186,67 @@ header{
     right: 1px;
     font-size: 12px;
     margin-right: 40px;
-}
-
+} */
+/* 
 button {
     background-color: #4CAF50; /* Green */
-    border: none;
+    /* border: none;
     color: white;
-    padding: 2px 20px;
-    text-align: center;
+    padding: 2px 20px; */
+    /* text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-  }
+    font-size: 16px; */
 
-  li{
-      list-style: none;
-      margin-top: 5px;
-      padding: 0;
-  }
+
+  
    a{
        color: white;
        text-decoration: none;
+       list-style: none;
    }
-   a:visited{
+   /* a:visited{
        color: white;
-   }
-
+   } */
+/* 
    .first_line{
        border: 1px solid white;
        height: 90px;
        position: relative;
        left: 80px;
-   }
-
+   } */
+/* 
    .second_line{
     border: 1px solid white;
     height: 90px;
     position: relative;
     left: 800px;
-}
+} */
 
-h5{
+/* h5{
     position: relative;
     left: 40px;
     bottom: 1px;
     text-decoration: none;
+}  */
+
+
+.list-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    /* align-content: space-around; */
 }
+
+
+
+
+
+
+
+
+
+
+
